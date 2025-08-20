@@ -41,7 +41,7 @@ A modern web application for exploring the Star Wars universe, built with Next.j
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/star-wars-explorer.git
+git clone https://github.com/aktaruzzamanjoti97/Star-War-Explorer-Backend.git
 cd star-wars-explorer
 ```
 
