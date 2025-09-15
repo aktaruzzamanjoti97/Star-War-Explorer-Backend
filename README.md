@@ -67,10 +67,28 @@ The backend server will start on `http://localhost:5000`
 
 ```
 star-wars-explorer/
-├── backend/
-│   ├── server.js           # Express server setup
-│   ├── package.json        # Backend dependencies
-│   └── .env               # Environment variables
+project-root/
+│
+├─ package.json
+├─ tsconfig.json
+├─ server.ts                # Entry point (minimal)
+│
+├─ src/
+│  ├─ app.ts
+│  ├─ config/
+│  │   └─ cache.ts
+│  ├─ controllers/
+│  │   └─ peopleController.ts
+│  ├─ middleware/
+│  │   └─ errorHandler.ts
+│  ├─ routes/
+│  │   └─ peopleRoutes.ts
+│  ├─ services/
+│  │   └─ swapiService.ts
+│  └─ utils/
+│      └─ fetchWithCache.ts
+│
+└─ .env
 ```
 
 ## 🔧 Configuration
