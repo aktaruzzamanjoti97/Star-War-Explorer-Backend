@@ -6,8 +6,7 @@
 	"scripts": {
 		"dev": "nodemon --watch src --watch server.ts --ext ts --exec \"ts-node server.ts\"",
 		"build": "rm -rf dist && tsc",
-		"start": "node dist/server.js",
-		"postinstall": "pnpm run build"
+		"start": "node dist/server.js"
 	},
 	"keywords": [],
 	"author": "",
